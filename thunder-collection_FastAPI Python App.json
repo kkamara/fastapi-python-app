@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "FastAPI Python App",
-    "dateExported": "2024-02-19T12:20:42.508Z",
+    "dateExported": "2024-02-19T13:28:28.975Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -31,6 +31,25 @@
             "modified": "2024-02-19T12:18:45.330Z",
             "headers": [],
             "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4de5e6c0-3a09-4d45-80ce-015af4f94292",
+            "colId": "f5eafc08-fded-4aff-838a-a29513ab1d82",
+            "containerId": "",
+            "name": "Create Posts",
+            "url": "http://localhost:3000/createposts",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-19T12:26:49.183Z",
+            "modified": "2024-02-19T13:21:50.188Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Top Beaches in Florida\",\n  \"content\": \"Check out these awesome beaches.\",\n  \"published\": false,\n  \"rating\": 4\n}",
+                "form": []
+            },
             "tests": []
         }
     ]
