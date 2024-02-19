@@ -17,6 +17,8 @@
 
 [Thunder client](https://www.thunderclient.com/) Visual Studio Code extension.
 
+[thunder-collection_FastAPI Python App.json](https://github.com/kkamara/fastapi-python-app/blob/main/thunder-collection_FastAPI%20Python%20App.json)
+
 ## Installation
 
 ```bash
