@@ -2,6 +2,8 @@
 
 
 
+* [Using Thunder Client?](#thunder-client)
+
 * [Installation](#installation)
 
 * [Usage](#usage)
@@ -9,6 +11,11 @@
 * [Contributing](#contributing)
 
 * [License](#license)
+
+<a name="thunder-client"></a>
+## Using Thunder Client?
+
+[Thunder client](https://www.thunderclient.com/) Visual Studio Code extension.
 
 ## Installation
 

@@ -1,0 +1,37 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "FastAPI Python App",
+    "dateExported": "2024-02-19T12:20:42.508Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7b9dff17-51fa-4c1b-b6e9-a244989dda1c",
+            "colId": "f5eafc08-fded-4aff-838a-a29513ab1d82",
+            "containerId": "",
+            "name": "Home",
+            "url": "http://localhost:3000/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-19T12:18:25.325Z",
+            "modified": "2024-02-19T12:18:28.163Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d5157ec6-823d-4dfa-96fa-a6d18da1e076",
+            "colId": "f5eafc08-fded-4aff-838a-a29513ab1d82",
+            "containerId": "",
+            "name": "Posts",
+            "url": "http://localhost:3000/posts",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-19T12:18:40.976Z",
+            "modified": "2024-02-19T12:18:45.330Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
