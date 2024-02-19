@@ -13,6 +13,11 @@ class Post(BaseModel):
     published: bool = True
     rating: Optional[int] = None
 
+def find_post(id: int):
+    for p in my_posts:
+        if p["id"] == id:
+            return p
+
 @app.get("/")
 def root():
     return {"message": "Hello World"}
@@ -27,3 +32,8 @@ def create_posts(post: Post):
     post_dict["id"] = randrange(0, 1000000)
     my_posts.append(post_dict)
     return {"data": post_dict}
+
+@app.get("/posts/{id}")
+def get_post(id: int):
+    post = find_post(id)
+    return {"post_detail": post}
