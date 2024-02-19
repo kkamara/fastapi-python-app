@@ -4,6 +4,8 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
+my_posts = [{"title": "Title of Post 1", "content": "Content of post 1.", "id": 1}, {"title": "Favourite Foods", "content": "I like Pizza", "id": 2}]
+
 class Post(BaseModel):
     title: str
     content: str
@@ -16,7 +18,7 @@ def root():
 
 @app.get("/posts")
 def get_posts():
-    return {"data": "This is your posts."}
+    return {"data": my_posts}
 
 @app.post("/posts")
 def create_posts(post: Post):
