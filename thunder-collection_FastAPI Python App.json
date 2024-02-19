@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "FastAPI Python App",
-    "dateExported": "2024-02-19T19:05:17.510Z",
+    "dateExported": "2024-02-19T19:50:52.922Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -38,11 +38,25 @@
             "colId": "f5eafc08-fded-4aff-838a-a29513ab1d82",
             "containerId": "",
             "name": "Get One Post",
-            "url": "http://localhost:3000/posts/281395",
+            "url": "http://localhost:3000/posts/738235",
             "method": "GET",
             "sortNum": 25000,
             "created": "2024-02-19T18:58:08.601Z",
-            "modified": "2024-02-19T19:04:36.405Z",
+            "modified": "2024-02-19T19:24:24.524Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "72003528-0ca8-4e03-80e0-9129c2e235ff",
+            "colId": "f5eafc08-fded-4aff-838a-a29513ab1d82",
+            "containerId": "",
+            "name": "Delete Post",
+            "url": "http://localhost:3000/posts/2",
+            "method": "DELETE",
+            "sortNum": 27500,
+            "created": "2024-02-19T19:45:09.704Z",
+            "modified": "2024-02-19T19:45:47.321Z",
             "headers": [],
             "params": [],
             "tests": []
