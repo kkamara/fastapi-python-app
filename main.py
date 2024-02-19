@@ -19,6 +19,7 @@ def get_posts():
     return {"data": "This is your posts."}
 
 @app.post("/createposts")
-def create_posts(new_post: Post):
-    print(new_post, new_post.published)
+def create_posts(post: Post):
+    print(post)
+    print(post.model_dump()) # .dict() is deprecated
     return {"data": "new post"}
