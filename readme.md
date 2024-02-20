@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-uvicorn main:app --reload --port=3000
+uvicorn app.main:app --reload --port=3000
 # http://localhost:3000
 ```
 
@@ -40,7 +40,7 @@ uvicorn main:app --reload --port=3000
 ## Documentation
 
 ```bash
-uvicorn main:app --reload --port=3000
+uvicorn app.main:app --reload --port=3000
 # http://localhost:3000/docs
 # http://localhost:3000/redoc
 ```
