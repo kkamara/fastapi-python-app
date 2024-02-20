@@ -42,6 +42,7 @@ uvicorn main:app --reload --port=3000
 ```bash
 uvicorn main:app --reload --port=3000
 # http://localhost:3000/docs
+# http://localhost:3000/redoc
 ```
 
 ## Contributing
