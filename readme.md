@@ -8,6 +8,8 @@
 
 * [Usage](#usage)
 
+* [Documentation](#docs)
+
 * [Contributing](#contributing)
 
 * [License](#license)
@@ -32,6 +34,14 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --reload --port=3000
 # http://localhost:3000
+```
+
+<a name="docs"></a>
+## Documentation
+
+```bash
+uvicorn main:app --reload --port=3000
+# http://localhost:3000/docs
 ```
 
 ## Contributing
